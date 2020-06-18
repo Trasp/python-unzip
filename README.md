@@ -5,7 +5,15 @@ Zip function in reverse.
 unzip(items: Iterable, cls: Callable = list, ocls: Callable = tuple) -> Iterable:
 ```
 
-To use list cointainers, simply run `unzip(zipped)`, as
+Install pip if you don't have it (`sudo apt install python3-pip` on debian), clone the repository and install locally.
+
+```bash
+git clone https://github.com/Trasp/python-unzip.git
+cd python-unzip
+pip3 install .
+```
+
+To use list cointainers, simply import unzip.unzip and run `unzip(zipped)`.
 
 ```python
 from unzip import unzip
