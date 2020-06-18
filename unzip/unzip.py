@@ -13,7 +13,7 @@ from typing import Iterable, Callable
 ContainerFactory = Callable[[], Iterable]
 
 
-def unzip(items: Iterable[Iterable[...]],
+def unzip(items: Iterable[Iterable],
           cls:  ContainerFactory = list,
           ocls: ContainerFactory = tuple) -> Iterable:
     r"""Zip function in reverse.
