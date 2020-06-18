@@ -1,11 +1,13 @@
 Zip function in reverse.
 ------------------------
 
+Python implementation (i.e. slow). You should probably be looking into numpy arrays, or pandas.
+
 ```python
 unzip(items: Iterable, cls: Callable = list, ocls: Callable = tuple) -> Iterable:
 ```
 
-Install pip if you don't have it (`sudo apt install python3-pip` on debian), clone the repository and install locally.
+Install pip (`sudo apt install python3-pip` on debian), clone the repository and install the package locally (and probably inside your virtual environment).
 
 ```bash
 git clone https://github.com/Trasp/python-unzip.git
