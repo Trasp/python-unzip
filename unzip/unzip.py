@@ -3,8 +3,8 @@
 
 """Zip function in reverse."""
 
-__author__ = "Trasp"
-__copyright__ = "Copyright (C) 2020 Trasp"
+__author__ = "Stefan Asplund"
+__copyright__ = "Copyright (C) 2020 Stefan Asplund"
 __license__ = "0BSD"
 __version__ = "1.0"
 
