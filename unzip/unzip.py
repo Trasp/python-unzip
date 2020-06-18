@@ -10,12 +10,10 @@ __version__ = "1.0"
 
 from typing import Iterable, Callable
 
-ContainerFactory = Callable[[], Iterable]
-
 
 def unzip(items: Iterable[Iterable],
-            cls: ContainerFactory = list,
-           ocls: ContainerFactory = tuple) -> Iterable:
+            cls: Callable[[], Iterable] = list,
+           ocls: Callable[[], Iterable] = tuple) -> Iterable:
     r"""Zip function in reverse.
 
     :param items: Zipped-like iterable.
