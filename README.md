@@ -1,7 +1,7 @@
 Zip function in reverse.
 ------------------------
 
-Python implementation (i.e. slow). You should probably be looking into numpy arrays, or pandas.
+Python implementation of built-in `zip` (i.e. slow). You should probably be looking into numpy arrays, or pandas.
 
 ```python
 unzip(items: Iterable, cls: Callable = list, ocls: Callable = tuple) -> Iterable:
