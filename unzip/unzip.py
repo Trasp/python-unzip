@@ -14,8 +14,8 @@ ContainerFactory = Callable[[], Iterable]
 
 
 def unzip(items: Iterable[Iterable],
-          cls:  ContainerFactory = list,
-          ocls: ContainerFactory = tuple) -> Iterable:
+            cls: ContainerFactory = list,
+           ocls: ContainerFactory = tuple) -> Iterable:
     r"""Zip function in reverse.
 
     :param items: Zipped-like iterable.
