@@ -1,11 +1,13 @@
 Zip function in reverse.
 ------------------------
 
-Pure Python implementation of built-in `zip(*args)` (i.e. slow). You should probably be looking into numpy arrays, or pandas.
+Pure Python implementation of built-in `zip(*args)` (i.e. slow). You should probably be looking into numpy arrays, or pandas. Created in relation to a [stackoverflow answer](https://stackoverflow.com/a/61685860/1388027).
 
 ```python
 unzip(items: Iterable, cls: Callable = list, ocls: Callable = tuple) -> Iterable:
 ```
+
+
 
 Install pip (`sudo apt install python3-pip` on debian), clone the repository and install the package locally (and probably inside your virtual environment).
 
